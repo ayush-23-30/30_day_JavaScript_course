@@ -108,12 +108,11 @@ switch (true) {
 num%2 == 0  ? console.log("this is a even number! ") : console.log("this is a odd number! "); 
 
 // activity 5 combinig conditons 
-
 let year = 1900;
-  if(year % 4 === 0 && year%400 === 0 &&  year%100 === 0){
-    console.log("this is a leap year");
-  }
-  else {
-    console.log("this is not a leap year");
-  }
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+  console.log("this is a leap year");
+} else {
+  console.log("this is not a leap year");
+}
+
 
