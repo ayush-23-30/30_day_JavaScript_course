@@ -97,7 +97,8 @@ let randomAysnc = async ()=>{
 const pro = new Promise((resolve, reject) => {
   // Fetch data from the specified URL
   fetch("https://courses.chaicode.com/learn/home/30-days-of-Javascript-challenge/30-days-javascript-challenge/section/515627/lesson/3197197")
-    .then((response) => {
+
+    .then((response) =>{
       if (!response.ok) {
         throw new Error(`Network response was not ok (status ${response.status})`);
       }
@@ -113,7 +114,6 @@ const pro = new Promise((resolve, reject) => {
     });
 });
 
-// Usage example:
 pro.then((resolvedData) => {
   // Handle the resolved data here
   console.log("Data resolved:", resolvedData);
