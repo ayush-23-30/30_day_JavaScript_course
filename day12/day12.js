@@ -57,7 +57,7 @@ function user (naam){
     console.log("the validation is not true");
   }
 }
-// console.log(user(""));
+// console.log(user("a"));
 
 // let promising = new Promise((res , rej) =>{
 //   let random = Math.floor(Math.random()*2)

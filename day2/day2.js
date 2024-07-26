@@ -135,6 +135,16 @@ ve > 0 ? console.log("this is a +ve number") : console.log("this is a -ve number
 
 // ternary operator  -- condition ? if true_ : if false ; 
 
+function nums(num1, num2) { 
+  return num1 * num2; 
+
+// console.log( num1 * num2)
+}
+
+ let fn = nums(2,3); 
+console.log(fn);
+// num --- 2 parameter  -- num 1 --- num 2
+
 
 
 
