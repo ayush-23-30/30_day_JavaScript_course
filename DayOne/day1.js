@@ -36,5 +36,3 @@ const two = 23;
 console.log("inital value of const two " , two );
 
  // two = "ayush ";  // this is show a typeError beacuse you can't change the value of const  
-
-
